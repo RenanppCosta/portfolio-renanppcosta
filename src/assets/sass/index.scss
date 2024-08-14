@@ -1,0 +1,12 @@
+@import "variables";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: $bg-color;
+  font-family: $font-stack;
+}
+
+

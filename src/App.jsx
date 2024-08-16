@@ -1,10 +1,11 @@
 import './assets/sass/index.scss'
+
+import Header from './components/Header'
+
 function App() {
   return (
     <>
-      <div className="w-full h-32">
-        <h1 className="text-3xl text-white"> &lt;renanppcosta/&gt; </h1>
-      </div>
+      <Header />
     </>
   )
 }

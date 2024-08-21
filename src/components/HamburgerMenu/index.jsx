@@ -14,7 +14,7 @@ export default function HamburgerMenu() {
             </button>
 
             <nav
-                className={`nav-mobile w-full gap-5 flex items-center justify-center flex-col fixed top-0 left-0 z-50 duration-500 ${
+                className={`nav-mobile w-full h-full gap-5 flex items-center justify-center flex-col fixed top-0 left-0 z-50 duration-500 ${
                     isOpen ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
                 }`}
             >

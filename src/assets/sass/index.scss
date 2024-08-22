@@ -11,21 +11,16 @@ body {
 }
 
 .btn-cv{
-  border: 1px solid white;
-  border-radius: 12px;
-  width: 130px;
-  padding: 6px;
   &:hover{
-    background: radial-gradient(circle, rgba(10,65,224,1) 49%, rgba(111,135,255,1) 100%);
-    border: none;
+    background: $hover-color;
+    border-color: $hover-color;
   }
 }
 
 .container-links{
   i{
     &:hover{
-      background: linear-gradient(circle, rgba(10,65,224,1) 49%, rgba(111,135,255,1) 100%);
-      -webkit-background-clip: text;
+      color: $hover-color;
     }
   }
 }

@@ -25,7 +25,9 @@ export default function Hero() {
         
         
 
-        // gsap.fromTo(".hero-container", {opacity:0, x: -400, rotate: 20}, {opacity: 1, x:0, duration: 1.5, rotate: 0})
+        return () =>{
+            gsap.killTweensOf(".hero-container");
+        }
     })
     return (
         <main className="min-h-screen flex flex-col mt-36">
